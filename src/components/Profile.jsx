@@ -6,6 +6,7 @@ function Profile ({name, role}) {
         <img src={profilepic} alt="Profile Picture" />
         <h1>{name}</h1>
         <p>{role}</p>
+        <button>Follow</button>
     </div>
   );
 }
