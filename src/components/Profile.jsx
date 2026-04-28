@@ -1,8 +1,11 @@
+import profilepic from './assets/profilepic.png';
+
 function Profile ({name, role}) {
   return (
     <div>
-      <h1>{name}</h1>
-      <p>{role}</p>
+        <img src={profilepic} alt="Profile Picture" />
+        <h1>{name}</h1>
+        <p>{role}</p>
     </div>
   );
 }
