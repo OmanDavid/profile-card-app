@@ -1,4 +1,4 @@
-import profilepic from './assets/profilepic.png';
+import profilepic from '../assets/profilepic.png';
 
 function Profile ({name, role}) {
   return (
