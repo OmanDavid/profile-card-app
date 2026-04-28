@@ -1,9 +1,10 @@
+import './App.css';
 import Profile from "./components/Profile.jsx";
 
 function App() {
   return (
-    <div>
-      <Profile name="Oman" role="Software Engineer" />
+    <div className="App">
+      <Profile name="Oman David" role="Software Engineer" />
     </div>
   )
 }

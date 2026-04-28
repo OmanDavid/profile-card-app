@@ -9,11 +9,11 @@ function Profile ({name, role}) {
     };
 
   return (
-    <div>
+    <div className="profile">
         <img src={profilepic} alt="Profile Picture" />
         <h1>{name}</h1>
         <p>{role}</p>
-        <button onClick={handleFollow}>
+        <button className="follow-button" onClick={handleFollow}>
             {isFollowing ? 'Following' : 'Follow'}
         </button>
     </div>
